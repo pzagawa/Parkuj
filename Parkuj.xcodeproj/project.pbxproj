@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE03E531253CB7FA00F39939 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03E530253CB7FA00F39939 /* BoundingBox.swift */; };
+		AE06D871257043E800CE3E3A /* TargetPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE06D870257043E800CE3E3A /* TargetPlaces.swift */; };
+		AE07A75325A53FD40094C872 /* PhonePoiBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE07A75225A53FD40094C872 /* PhonePoiBadgeView.swift */; };
+		AE0FCFFB25A671070015DB77 /* PhonePoiTagTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FCFFA25A671070015DB77 /* PhonePoiTagTextView.swift */; };
+		AE0FD00125A67FE80015DB77 /* PhonePoiTagSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD00025A67FE80015DB77 /* PhonePoiTagSummaryView.swift */; };
+		AE107A2D2580287400C061EA /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE107A2C2580287400C061EA /* Navigator.swift */; };
+		AE12E7E1254F72F200B9B8EA /* PhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12E7E0254F72F200B9B8EA /* PhoneApp.swift */; };
+		AE12E7E3254F8F3700B9B8EA /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12E7E2254F8F3700B9B8EA /* LocalNotification.swift */; };
+		AE1E1699254D947F007FA9D8 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E1698254D947F007FA9D8 /* AppData.swift */; };
+		AE24EA6D25A24308004FD0B4 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24EA6C25A24308004FD0B4 /* UserSettings.swift */; };
+		AE2D315525BC5AA8001CA69D /* AppStartup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D315425BC5AA8001CA69D /* AppStartup.swift */; };
+		AE2F942225377C87007651B3 /* VersionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F941D25377C87007651B3 /* VersionItem.swift */; };
+		AE3FACE62531E0490057E567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FACE52531E0490057E567 /* AppDelegate.swift */; };
+		AE3FACE82531E0490057E567 /* PhoneSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FACE72531E0490057E567 /* PhoneSceneDelegate.swift */; };
+		AE3FACEA2531E0490057E567 /* PhoneMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FACE92531E0490057E567 /* PhoneMainView.swift */; };
+		AE3FACEC2531E04B0057E567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3FACEB2531E04B0057E567 /* Assets.xcassets */; };
+		AE3FACEF2531E04B0057E567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3FACEE2531E04B0057E567 /* Preview Assets.xcassets */; };
+		AE3FACF22531E04B0057E567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FACF02531E04B0057E567 /* LaunchScreen.storyboard */; };
+		AE3FACFE2531E57F0057E567 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3FACFD2531E57F0057E567 /* MapKit.framework */; };
+		AE4012F7253FA3A500F86174 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4012F6253FA3A500F86174 /* LocationManager.swift */; };
+		AE476DD825C5E6FE00E092A5 /* PhoneMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE476DD725C5E6FE00E092A5 /* PhoneMapView.swift */; };
+		AE510B6725F6DD630082322C /* PhoneAppItemsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE510B6625F6DD630082322C /* PhoneAppItemsData.swift */; };
+		AE55604325E16CA600AB8BFF /* PhonePoiBadgeDragData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55604225E16CA600AB8BFF /* PhonePoiBadgeDragData.swift */; };
+		AE86B9B92562FA3700E3FB93 /* CarPlayUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE86B9B82562FA3700E3FB93 /* CarPlayUI.swift */; };
+		AE8991D425533DD400EA8079 /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8991D325533DD400EA8079 /* StateProperty.swift */; };
+		AEA43BA4253390C50068C32C /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA43BA3253390C50068C32C /* CarPlaySceneDelegate.swift */; };
+		AEA43BA8253391F80068C32C /* CarPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA43BA7253391F80068C32C /* CarPlay.framework */; };
+		AEA4DA152576690700C2CB7A /* RoutingTravelTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA142576690700C2CB7A /* RoutingTravelTime.swift */; };
+		AEA61CB6253DFC4000419B00 /* TargetPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA61CB5253DFC4000419B00 /* TargetPlace.swift */; };
+		AEADDD18257AFF4400764E3D /* DelayTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADDD17257AFF4400764E3D /* DelayTimer.swift */; };
+		AEBE8E9F2574F2C90072DE4A /* AddressPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE8E9E2574F2C90072DE4A /* AddressPlacemark.swift */; };
+		AEC50A712573E64E00CC6710 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC50A702573E64E00CC6710 /* Database.swift */; };
+		AED908D525DF3C0F002F85C7 /* PhonePoiBadgeDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED908D425DF3C0F002F85C7 /* PhonePoiBadgeDragView.swift */; };
+		AED93A7E25C1D0DD00C8A0BF /* PhonePoiSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED93A7D25C1D0DD00C8A0BF /* PhonePoiSliderView.swift */; };
+		AED93FCA257403C000C47CC6 /* UserDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED93FC9257403C000C47CC6 /* UserDatabase.swift */; };
+		AED93FD0257403D300C47CC6 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED93FCF257403D300C47CC6 /* UserDataModel.swift */; };
+		AEDD4987257BED0B002CB499 /* CarPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD4986257BED0B002CB499 /* CarPlayApp.swift */; };
+		AEE863BE25365B9800DD1BE0 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE863B225365B7E00DD1BE0 /* SQLite.framework */; };
+		AEE863BF25365B9800DD1BE0 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE863B225365B7E00DD1BE0 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEE863C625365C6000DD1BE0 /* EmbeddedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE863C525365C6000DD1BE0 /* EmbeddedDataModel.swift */; };
+		AEE863C725365CFD00DD1BE0 /* PlaceTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFBE1025363653003709CC /* PlaceTag.swift */; };
+		AEE863C825365CFF00DD1BE0 /* EmbeddedDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFBE1125363653003709CC /* EmbeddedDatabase.swift */; };
+		AEE863C925365D0100DD1BE0 /* PlaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFBE1225363653003709CC /* PlaceItem.swift */; };
+		AEE863CB25365D5D00DD1BE0 /* GeoTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE863CA25365D5D00DD1BE0 /* GeoTools.swift */; };
+		AEE863CD25365D8000DD1BE0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE863CC25365D8000DD1BE0 /* Utils.swift */; };
+		AEF46F3A2559E1C2009293B0 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF46F392559E1C2009293B0 /* LocationData.swift */; };
+		AEFCDF1925729E950036E194 /* AddressGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCDF1825729E950036E194 /* AddressGeocoder.swift */; };
+		AEFFBE15253655E0003709CC /* mobile_database.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = AEFFBE14253655D9003709CC /* mobile_database.sqlite3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE863B125365B7E00DD1BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		AEE863B325365B7E00DD1BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		AEE863B525365B7E00DD1BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		AEE863B725365B7E00DD1BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEE863C025365B9900DD1BE0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEE863BF25365B9800DD1BE0 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE03E530253CB7FA00F39939 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		AE055D77253205C300991222 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		AE06D870257043E800CE3E3A /* TargetPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetPlaces.swift; sourceTree = "<group>"; };
+		AE07A75225A53FD40094C872 /* PhonePoiBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePoiBadgeView.swift; sourceTree = "<group>"; };
+		AE0FCFFA25A671070015DB77 /* PhonePoiTagTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePoiTagTextView.swift; sourceTree = "<group>"; };
+		AE0FD00025A67FE80015DB77 /* PhonePoiTagSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonePoiTagSummaryView.swift; sourceTree = "<group>"; };
+		AE107A2C2580287400C061EA /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		AE12E7E0254F72F200B9B8EA /* PhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneApp.swift; sourceTree = "<group>"; };
+		AE12E7E2254F8F3700B9B8EA /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		AE1B1C52253247A400D962D4 /* ToDo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDo.md; sourceTree = "<group>"; };
+		AE1E1698254D947F007FA9D8 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		AE24EA6C25A24308004FD0B4 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		AE2D315425BC5AA8001CA69D /* AppStartup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartup.swift; sourceTree = "<group>"; };
+		AE2F941D25377C87007651B3 /* VersionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionItem.swift; sourceTree = "<group>"; };
+		AE3FACE22531E0490057E567 /* Parkuj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkuj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3FACE52531E0490057E567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE3FACE72531E0490057E567 /* PhoneSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSceneDelegate.swift; sourceTree = "<group>"; };
+		AE3FACE92531E0490057E567 /* PhoneMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneMainView.swift; sourceTree = "<group>"; };
+		AE3FACEB2531E04B0057E567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3FACEE2531E04B0057E567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE3FACF12531E04B0057E567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE3FACF32531E04B0057E567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3FACFD2531E57F0057E567 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE4012F6253FA3A500F86174 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AE476DD725C5E6FE00E092A5 /* PhoneMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneMapView.swift; sourceTree = "<group>"; };
+		AE510B6625F6DD630082322C /* PhoneAppItemsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAppItemsData.swift; sourceTree = "<group>"; };
+		AE55604225E16CA600AB8BFF /* PhonePoiBadgeDragData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePoiBadgeDragData.swift; sourceTree = "<group>"; };
+		AE86B9B82562FA3700E3FB93 /* CarPlayUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayUI.swift; sourceTree = "<group>"; };
+		AE8991D325533DD400EA8079 /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		AEA43BA3253390C50068C32C /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		AEA43BA7253391F80068C32C /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		AEA4DA142576690700C2CB7A /* RoutingTravelTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingTravelTime.swift; sourceTree = "<group>"; };
+		AEA61CB5253DFC4000419B00 /* TargetPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetPlace.swift; sourceTree = "<group>"; };
+		AEADDD17257AFF4400764E3D /* DelayTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayTimer.swift; sourceTree = "<group>"; };
+		AEBE8E9E2574F2C90072DE4A /* AddressPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressPlacemark.swift; sourceTree = "<group>"; };
+		AEC50A702573E64E00CC6710 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		AED908D425DF3C0F002F85C7 /* PhonePoiBadgeDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePoiBadgeDragView.swift; sourceTree = "<group>"; };
+		AED93A7D25C1D0DD00C8A0BF /* PhonePoiSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePoiSliderView.swift; sourceTree = "<group>"; };
+		AED93FC9257403C000C47CC6 /* UserDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatabase.swift; sourceTree = "<group>"; };
+		AED93FCF257403D300C47CC6 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		AEDD4986257BED0B002CB499 /* CarPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayApp.swift; sourceTree = "<group>"; };
+		AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
+		AEE863C525365C6000DD1BE0 /* EmbeddedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedDataModel.swift; sourceTree = "<group>"; };
+		AEE863CA25365D5D00DD1BE0 /* GeoTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoTools.swift; sourceTree = "<group>"; };
+		AEE863CC25365D8000DD1BE0 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AEF46F392559E1C2009293B0 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		AEFCDF1825729E950036E194 /* AddressGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocoder.swift; sourceTree = "<group>"; };
+		AEFFBE0A253635AC003709CC /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFFBE1025363653003709CC /* PlaceTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTag.swift; sourceTree = "<group>"; };
+		AEFFBE1125363653003709CC /* EmbeddedDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedDatabase.swift; sourceTree = "<group>"; };
+		AEFFBE1225363653003709CC /* PlaceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItem.swift; sourceTree = "<group>"; };
+		AEFFBE14253655D9003709CC /* mobile_database.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobile_database.sqlite3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3FACDF2531E0490057E567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FACFE2531E57F0057E567 /* MapKit.framework in Frameworks */,
+				AEA43BA8253391F80068C32C /* CarPlay.framework in Frameworks */,
+				AEE863BE25365B9800DD1BE0 /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3FACD92531E0490057E567 = {
+			isa = PBXGroup;
+			children = (
+				AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */,
+				AEFFBE13253655D9003709CC /* data */,
+				AE1B1C52253247A400D962D4 /* ToDo.md */,
+				AE055D77253205C300991222 /* Entitlements.plist */,
+				AEFFBE0E25363653003709CC /* sources */,
+				AE3FACE42531E0490057E567 /* Parkuj */,
+				AE3FACE32531E0490057E567 /* Products */,
+				AE3FACFC2531E57F0057E567 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3FACE32531E0490057E567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FACE22531E0490057E567 /* Parkuj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3FACE42531E0490057E567 /* Parkuj */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FACF32531E04B0057E567 /* Info.plist */,
+				AE3FACE52531E0490057E567 /* AppDelegate.swift */,
+				AE3FACF02531E04B0057E567 /* LaunchScreen.storyboard */,
+				AE3FACEB2531E04B0057E567 /* Assets.xcassets */,
+				AE3FACED2531E04B0057E567 /* Preview Content */,
+			);
+			path = Parkuj;
+			sourceTree = "<group>";
+		};
+		AE3FACED2531E04B0057E567 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FACEE2531E04B0057E567 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE3FACFC2531E57F0057E567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFBE0A253635AC003709CC /* SQLite.framework */,
+				AEA43BA7253391F80068C32C /* CarPlay.framework */,
+				AE3FACFD2531E57F0057E567 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE7E467F257AFE2500E52DA7 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE03E530253CB7FA00F39939 /* BoundingBox.swift */,
+				AEE863CA25365D5D00DD1BE0 /* GeoTools.swift */,
+				AE8991D325533DD400EA8079 /* StateProperty.swift */,
+				AE12E7E2254F8F3700B9B8EA /* LocalNotification.swift */,
+				AEADDD17257AFF4400764E3D /* DelayTimer.swift */,
+				AEE863CC25365D8000DD1BE0 /* Utils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		AEE863AB25365B7E00DD1BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE863B225365B7E00DD1BE0 /* SQLite.framework */,
+				AEE863B425365B7E00DD1BE0 /* SQLite.framework */,
+				AEE863B625365B7E00DD1BE0 /* SQLite.framework */,
+				AEE863B825365B7E00DD1BE0 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF0C89E259B81E900D36DD8 /* phoneapp */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FACE72531E0490057E567 /* PhoneSceneDelegate.swift */,
+				AE3FACE92531E0490057E567 /* PhoneMainView.swift */,
+				AE12E7E0254F72F200B9B8EA /* PhoneApp.swift */,
+				AE510B6625F6DD630082322C /* PhoneAppItemsData.swift */,
+				AE476DD725C5E6FE00E092A5 /* PhoneMapView.swift */,
+				AED93A7D25C1D0DD00C8A0BF /* PhonePoiSliderView.swift */,
+				AED908D425DF3C0F002F85C7 /* PhonePoiBadgeDragView.swift */,
+				AE55604225E16CA600AB8BFF /* PhonePoiBadgeDragData.swift */,
+				AE07A75225A53FD40094C872 /* PhonePoiBadgeView.swift */,
+				AE0FCFFA25A671070015DB77 /* PhonePoiTagTextView.swift */,
+				AE0FD00025A67FE80015DB77 /* PhonePoiTagSummaryView.swift */,
+			);
+			path = phoneapp;
+			sourceTree = "<group>";
+		};
+		AEF0C8A3259B81FA00D36DD8 /* carplayapp */ = {
+			isa = PBXGroup;
+			children = (
+				AEA43BA3253390C50068C32C /* CarPlaySceneDelegate.swift */,
+				AEDD4986257BED0B002CB499 /* CarPlayApp.swift */,
+				AE86B9B82562FA3700E3FB93 /* CarPlayUI.swift */,
+			);
+			path = carplayapp;
+			sourceTree = "<group>";
+		};
+		AEFFBE0E25363653003709CC /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE7E467F257AFE2500E52DA7 /* utils */,
+				AEFFBE0F25363653003709CC /* data */,
+				AEF0C89E259B81E900D36DD8 /* phoneapp */,
+				AEF0C8A3259B81FA00D36DD8 /* carplayapp */,
+				AE107A2C2580287400C061EA /* Navigator.swift */,
+				AE24EA6C25A24308004FD0B4 /* UserSettings.swift */,
+				AE4012F6253FA3A500F86174 /* LocationManager.swift */,
+				AEF46F392559E1C2009293B0 /* LocationData.swift */,
+				AE2D315425BC5AA8001CA69D /* AppStartup.swift */,
+				AE1E1698254D947F007FA9D8 /* AppData.swift */,
+			);
+			name = sources;
+			path = Parkuj/sources;
+			sourceTree = "<group>";
+		};
+		AEFFBE0F25363653003709CC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AEC50A702573E64E00CC6710 /* Database.swift */,
+				AED93FC9257403C000C47CC6 /* UserDatabase.swift */,
+				AED93FCF257403D300C47CC6 /* UserDataModel.swift */,
+				AEFFBE1125363653003709CC /* EmbeddedDatabase.swift */,
+				AEE863C525365C6000DD1BE0 /* EmbeddedDataModel.swift */,
+				AEFCDF1825729E950036E194 /* AddressGeocoder.swift */,
+				AEBE8E9E2574F2C90072DE4A /* AddressPlacemark.swift */,
+				AEA4DA142576690700C2CB7A /* RoutingTravelTime.swift */,
+				AEA61CB5253DFC4000419B00 /* TargetPlace.swift */,
+				AE06D870257043E800CE3E3A /* TargetPlaces.swift */,
+				AEFFBE1025363653003709CC /* PlaceTag.swift */,
+				AEFFBE1225363653003709CC /* PlaceItem.swift */,
+				AE2F941D25377C87007651B3 /* VersionItem.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AEFFBE13253655D9003709CC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFBE14253655D9003709CC /* mobile_database.sqlite3 */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3FACE12531E0490057E567 /* Parkuj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3FACF62531E04B0057E567 /* Build configuration list for PBXNativeTarget "Parkuj" */;
+			buildPhases = (
+				AE3FACDE2531E0490057E567 /* Sources */,
+				AE3FACDF2531E0490057E567 /* Frameworks */,
+				AE3FACE02531E0490057E567 /* Resources */,
+				AEE863C025365B9900DD1BE0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parkuj;
+			productName = Parkuj;
+			productReference = AE3FACE22531E0490057E567 /* Parkuj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3FACDA2531E0490057E567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AE3FACE12531E0490057E567 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AE3FACDD2531E0490057E567 /* Build configuration list for PBXProject "Parkuj" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3FACD92531E0490057E567;
+			productRefGroup = AE3FACE32531E0490057E567 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AEE863AB25365B7E00DD1BE0 /* Products */;
+					ProjectRef = AEE863AA25365B7E00DD1BE0 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE3FACE12531E0490057E567 /* Parkuj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AEE863B225365B7E00DD1BE0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEE863B125365B7E00DD1BE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE863B425365B7E00DD1BE0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEE863B325365B7E00DD1BE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE863B625365B7E00DD1BE0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEE863B525365B7E00DD1BE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE863B825365B7E00DD1BE0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEE863B725365B7E00DD1BE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3FACE02531E0490057E567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FACF22531E04B0057E567 /* LaunchScreen.storyboard in Resources */,
+				AE3FACEF2531E04B0057E567 /* Preview Assets.xcassets in Resources */,
+				AEFFBE15253655E0003709CC /* mobile_database.sqlite3 in Resources */,
+				AE3FACEC2531E04B0057E567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3FACDE2531E0490057E567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE86B9B92562FA3700E3FB93 /* CarPlayUI.swift in Sources */,
+				AE0FCFFB25A671070015DB77 /* PhonePoiTagTextView.swift in Sources */,
+				AE0FD00125A67FE80015DB77 /* PhonePoiTagSummaryView.swift in Sources */,
+				AEE863C825365CFF00DD1BE0 /* EmbeddedDatabase.swift in Sources */,
+				AEFCDF1925729E950036E194 /* AddressGeocoder.swift in Sources */,
+				AEE863C625365C6000DD1BE0 /* EmbeddedDataModel.swift in Sources */,
+				AEF46F3A2559E1C2009293B0 /* LocationData.swift in Sources */,
+				AE3FACE62531E0490057E567 /* AppDelegate.swift in Sources */,
+				AE1E1699254D947F007FA9D8 /* AppData.swift in Sources */,
+				AE03E531253CB7FA00F39939 /* BoundingBox.swift in Sources */,
+				AE06D871257043E800CE3E3A /* TargetPlaces.swift in Sources */,
+				AE476DD825C5E6FE00E092A5 /* PhoneMapView.swift in Sources */,
+				AE24EA6D25A24308004FD0B4 /* UserSettings.swift in Sources */,
+				AE2F942225377C87007651B3 /* VersionItem.swift in Sources */,
+				AE3FACE82531E0490057E567 /* PhoneSceneDelegate.swift in Sources */,
+				AE107A2D2580287400C061EA /* Navigator.swift in Sources */,
+				AED93A7E25C1D0DD00C8A0BF /* PhonePoiSliderView.swift in Sources */,
+				AEA43BA4253390C50068C32C /* CarPlaySceneDelegate.swift in Sources */,
+				AEE863CD25365D8000DD1BE0 /* Utils.swift in Sources */,
+				AE2D315525BC5AA8001CA69D /* AppStartup.swift in Sources */,
+				AE12E7E1254F72F200B9B8EA /* PhoneApp.swift in Sources */,
+				AEDD4987257BED0B002CB499 /* CarPlayApp.swift in Sources */,
+				AEE863C725365CFD00DD1BE0 /* PlaceTag.swift in Sources */,
+				AEA61CB6253DFC4000419B00 /* TargetPlace.swift in Sources */,
+				AE4012F7253FA3A500F86174 /* LocationManager.swift in Sources */,
+				AE510B6725F6DD630082322C /* PhoneAppItemsData.swift in Sources */,
+				AED93FCA257403C000C47CC6 /* UserDatabase.swift in Sources */,
+				AEE863C925365D0100DD1BE0 /* PlaceItem.swift in Sources */,
+				AEADDD18257AFF4400764E3D /* DelayTimer.swift in Sources */,
+				AEBE8E9F2574F2C90072DE4A /* AddressPlacemark.swift in Sources */,
+				AE55604325E16CA600AB8BFF /* PhonePoiBadgeDragData.swift in Sources */,
+				AE8991D425533DD400EA8079 /* StateProperty.swift in Sources */,
+				AEA4DA152576690700C2CB7A /* RoutingTravelTime.swift in Sources */,
+				AEE863CB25365D5D00DD1BE0 /* GeoTools.swift in Sources */,
+				AE3FACEA2531E0490057E567 /* PhoneMainView.swift in Sources */,
+				AE07A75325A53FD40094C872 /* PhonePoiBadgeView.swift in Sources */,
+				AED93FD0257403D300C47CC6 /* UserDataModel.swift in Sources */,
+				AE12E7E3254F8F3700B9B8EA /* LocalNotification.swift in Sources */,
+				AEC50A712573E64E00CC6710 /* Database.swift in Sources */,
+				AED908D525DF3C0F002F85C7 /* PhonePoiBadgeDragView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE3FACF02531E04B0057E567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3FACF12531E04B0057E567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3FACF42531E04B0057E567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE3FACF52531E04B0057E567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3FACF72531E04B0057E567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Parkuj/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JQHMP5J72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Parkuj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pzagawa.parking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Parkuj;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE3FACF82531E04B0057E567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Parkuj/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JQHMP5J72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Parkuj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pzagawa.parking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Parkuj;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3FACDD2531E0490057E567 /* Build configuration list for PBXProject "Parkuj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FACF42531E04B0057E567 /* Debug */,
+				AE3FACF52531E04B0057E567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3FACF62531E04B0057E567 /* Build configuration list for PBXNativeTarget "Parkuj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FACF72531E04B0057E567 /* Debug */,
+				AE3FACF82531E04B0057E567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3FACDA2531E0490057E567 /* Project object */;
+}
